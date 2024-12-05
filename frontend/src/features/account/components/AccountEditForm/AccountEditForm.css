@@ -1,0 +1,95 @@
+/* EMAIL */
+.account-edit-form {
+  width: calc(-70px + 43vw);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(221, 221, 221, 0.06);
+  padding: 60px;
+  border-radius: 6px;
+}
+
+.account-edit-form-row {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: auto;
+  position: relative;
+}
+
+.account-edit-form-row:first-child {
+  margin-bottom: 20px;
+}
+.account-edit-form-row:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.account-edit-form-row-title {
+  padding-bottom: 5px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  position: relative;
+}
+
+.account-edit-form-row-title > svg {
+  fill: transparent;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.account-edit-form-row-text {
+  color: rgba(255, 255, 255, 255);
+}
+
+.account-edit-form-row-button {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+.account-edit-form-row-button:first-child {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.account-edit-form-row-button:last-child {
+  background-color: rgba(64, 68, 89, 0.6);
+}
+
+.account-edit-form-row-button:first-child:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.account-edit-form-row-button:last-child:hover {
+  background-color: rgba(64, 68, 89, 0.8);
+}
+
+.error {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  top: 56px;
+  color: #b22365;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.error > svg {
+  width: 13px;
+  margin-right: 5px;
+}
+
+.m-bot {
+  margin-bottom: 30px;
+}
